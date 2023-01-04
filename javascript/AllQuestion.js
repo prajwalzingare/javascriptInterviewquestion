@@ -19,3 +19,9 @@ function myFunction() {
     console.log("not a string");
   }
 }
+
+//  Remove Duplicate characters from array of element and find the count of an elements using set object
+var arr = [55, 44, 55, 67, 67, 67, 67, 8, 8, 8, 8, 8, 65, 1, 2, 3, 3, 34, 5];
+var unique = [...new Set(arr)];
+console.log(unique); //output: [55, 44, 67, 8, 65, 1, 2, 3, 34, 5]
+console.log(unique.length); //output: 10
