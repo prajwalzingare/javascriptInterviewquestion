@@ -25,3 +25,12 @@ var arr = [55, 44, 55, 67, 67, 67, 67, 8, 8, 8, 8, 8, 65, 1, 2, 3, 3, 34, 5];
 var unique = [...new Set(arr)];
 console.log(unique); //output: [55, 44, 67, 8, 65, 1, 2, 3, 34, 5]
 console.log(unique.length); //output: 10
+
+//String reverse with reversing of individual words
+function withoutReverse() {
+  var string = "India is my country";
+  let result = string.split("").reverse().join("");
+  return result;
+}
+console.log(withoutReverse());
+output = "yrtnuoc ym si aidnI";
