@@ -34,3 +34,11 @@ function withoutReverse() {
 }
 console.log(withoutReverse());
 output = "yrtnuoc ym si aidnI";
+// Code 9: Swapping of 2 numbers with third variable
+let a=10;
+let b=20;
+let c;
+   c=a;
+   a=b;
+   b=c;
+console.log (a,b,c)
