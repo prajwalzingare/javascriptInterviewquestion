@@ -34,11 +34,16 @@ function withoutReverse() {
 }
 console.log(withoutReverse());
 output = "yrtnuoc ym si aidnI";
-// Code 9: Swapping of 2 numbers with third variable
-let a=10;
-let b=20;
+//  Swapping of 2 numbers with third variable
+let a = 10;
+let b = 20;
 let c;
-   c=a;
-   a=b;
-   b=c;
-console.log (a,b,c)
+c = a;
+a = b;
+b = c;
+console.log(a, b, c);
+
+// To find the index of an element from an array
+const letters = ["a", "b", "c"];
+const index = letters.indexOf("b");
+console.log(index); // `1`
