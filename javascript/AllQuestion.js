@@ -1,4 +1,4 @@
-/* Write a JavaScript function to check whether an input is a string or not */
+/*1. Write a JavaScript function to check whether an input is a string or not */
 /* Test Data :
 console.log(is_string('w3resource'));
 true
@@ -20,7 +20,7 @@ function myFunction() {
   }
 }
 
-//  Remove Duplicate characters from array of element and find the count of an elements using set object
+// 2. Remove Duplicate characters from array of element and find the count of an elements using set object
 var arr = [55, 44, 55, 67, 67, 67, 67, 8, 8, 8, 8, 8, 65, 1, 2, 3, 3, 34, 5];
 var unique = [...new Set(arr)];
 console.log(unique); //output: [55, 44, 67, 8, 65, 1, 2, 3, 34, 5]
@@ -34,7 +34,7 @@ function withoutReverse() {
 }
 console.log(withoutReverse());
 output = "yrtnuoc ym si aidnI";
-//  Swapping of 2 numbers with third variable
+//3.  Swapping of 2 numbers with third variable
 let a = 10;
 let b = 20;
 let c;
@@ -43,7 +43,7 @@ a = b;
 b = c;
 console.log(a, b, c);
 
-// To find the index of an element from an array
+//4. To find the index of an element from an array
 const letters = ["a", "b", "c"];
 const index = letters.indexOf("b");
 console.log(index); // `1`
