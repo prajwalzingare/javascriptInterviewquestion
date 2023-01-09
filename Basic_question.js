@@ -75,3 +75,16 @@ console.log(null ? "true" : "false"); // false
 
 // What is the value of -'34'+10
 // Answer: -24. minus(-) in front of a string is an unary operator that will convert the string to a number and will make it negative. Hence, -'34' becomes, -34 and then plus (+) will perform simple addition as both the operands are number.
+
+//question
+// let a = [];
+// let b = [];
+// console.log(a == b); //false
+// console.log(a === b); //false
+//Explaination : Here we are comparing memory location, not an array. Memory location of 2 arrays are not same.
+
+// let a = [];
+// let b = a;
+// console.log(a==b); //true
+// console.log(a===b); //true
+//Explaination : Here we are assigning a to b, where memory location is now same.
