@@ -88,3 +88,12 @@ console.log(null ? "true" : "false"); // false
 // console.log(a==b); //true
 // console.log(a===b); //true
 //Explaination : Here we are assigning a to b, where memory location is now same.
+
+//  Swapping of 2 numbers with third variable
+// let a=10;
+// let b=20;
+// let c;
+//    c=a;
+//    a=b;
+//    b=c;
+// console.log (a,b,c)
