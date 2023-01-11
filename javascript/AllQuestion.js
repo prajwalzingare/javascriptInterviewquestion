@@ -47,3 +47,7 @@ console.log(a, b, c);
 const letters = ["a", "b", "c"];
 const index = letters.indexOf("b");
 console.log(index); // `1`
+
+// const set = new Set([1,1,2,2,3,4,5])
+// console.log(set) //{1,2,3,4,5}
+//Explaination : It will remove duplicate values.
