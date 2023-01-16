@@ -70,12 +70,6 @@ console.log(NaN ? "true" : "false"); // false
 console.log(undefined ? "true" : "false"); // false
 console.log(null ? "true" : "false"); // false
 
-// Question: What is the value of +'dude'
-// Answer: NaN. The plus (+) operator in front of a string is an unary operator that will try to convert the string to number. Here, JavaScript will fail to convert the "dude" to a number and will produce NaN.
-
-// What is the value of -'34'+10
-// Answer: -24. minus(-) in front of a string is an unary operator that will convert the string to a number and will make it negative. Hence, -'34' becomes, -34 and then plus (+) will perform simple addition as both the operands are number.
-
 //question
 // let a = [];
 // let b = [];
@@ -98,3 +92,34 @@ console.log(null ? "true" : "false"); // false
 //    b=c;
 // console.log (a,b,c)
 //done
+
+//100 basic question
+// Question: What is typeof []
+// Answer: Object. Actually Array is derived from Object. If you want to check array use Array.isArray(arr)
+
+// Question: What is typeof arguments
+// Answer: Object. arguments are array like but not array. it has length, can access by index but can't push pop, etc.
+
+// Question: What is the value of typeof null
+// Answer: "object"
+
+// Question: What is console.log(true+false)
+// Answer: 1 here true -->> 1 & false -->> 0 then 1 + 0 -->> 1
+
+// Question: What is 2+true
+// Answer: 3. The plus operator between a number and a boolean or two boolean will convert boolean to number. Hence, true converts to 1 and you get result of 2+1
+
+// Question: What is "2"+true
+// Answer: 2true here string concatination happer "2"+"true" -->> 2true
+
+// Question: What is the value of -'34'+10
+// Answer: -24. minus(-) in front of a string is an unary operator that will convert the string to a number and will make it negative. Hence, -'34' becomes, -34 and then plus (+) will perform simple addition as both the operands are number.
+
+// Question: What is the value of +'dude'
+// Answer: NaN. The plus (+) operator in front of a string is an unary operator that will try to convert the string to number. Here, JavaScript will fail to convert the "dude" to a number and will produce NaN.
+
+// Question: If you have var y = 1, x = y = typeof x; What is the value of x?
+// Answer: "undefined"
+
+// Question: for var a = (2, 3, 5); what is the value of a?
+// Answer: 5. The comma operator evaluates each of its operands (from left to right) and returns the value of the last operand. ref: MDN
