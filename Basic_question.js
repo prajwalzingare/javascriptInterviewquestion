@@ -94,6 +94,7 @@ console.log(null ? "true" : "false"); // false
 //done
 
 //100 basic question
+
 // Question: What is typeof []
 // Answer: Object. Actually Array is derived from Object. If you want to check array use Array.isArray(arr)
 
@@ -123,3 +124,33 @@ console.log(null ? "true" : "false"); // false
 
 // Question: for var a = (2, 3, 5); what is the value of a?
 // Answer: 5. The comma operator evaluates each of its operands (from left to right) and returns the value of the last operand. ref: MDN
+
+// Question: for var a = (1, 5 - 1) * 2 what is the value of a?
+// Answer: 8
+
+// Question: What is the value of !'bang'
+// Answer: false. ! is NOT.
+
+// Question: What is the value of parseFloat('12.3.4')
+// Answer: 12.3
+
+// Question: What is the value of Math.max([2,3,4,5]);
+// Answer: NaN
+
+// Question: typeof(NaN)
+// Anwser:"number
+
+// Question:null == undefined
+// Answer: true //varaibale is there so it can be null or undefined so it is equal but if you do stricly equality operator then it is false because two variable cant be same data type.
+
+// Question: If var a = 2, b =3 what would be value of a && b
+// Answer: 3 //beacuse a is true so it will execute second condition.
+
+// Question: What is -5%2
+// Answer:-1. the result of remainder always get the symbol of first operand
+
+let a = [];
+let b = [];
+console.log(a == b); //false
+console.log(a === b); //false
+//Explaination : Here we are comparing memory location, not an array. Memory location of 2 arrays are not same.
