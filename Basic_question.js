@@ -149,8 +149,25 @@ console.log(null ? "true" : "false"); // false
 // Question: What is -5%2
 // Answer:-1. the result of remainder always get the symbol of first operand
 
+/*  
 let a = [];
 let b = [];
 console.log(a == b); //false
 console.log(a === b); //false
-//Explaination : Here we are comparing memory location, not an array. Memory location of 2 arrays are not same.
+//Explaination : Here we are comparing memory location, not an array. Memory location of 2 arrays are not same.*/
+
+/* 
+
+let a = [];
+let b = a;
+console.log(a==b); //true
+console.log(a===b); //true
+//Explaination : Here we are assigning a to b, where memory location is now same.
+
+let a = [1];
+let b = [1];
+console.log(a[0]==b[0]); //true
+console.log(a[0]===b[0]); //true
+//Explaination : Here we are comparing elements inside an array, not a memory location. We specify the index so that's why element get compared.
+
+*/
