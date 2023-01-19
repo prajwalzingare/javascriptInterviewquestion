@@ -75,3 +75,34 @@ function insertDash() {
   console.log(result);
 }
  */
+
+/* 
+// Write a JavaScript program to find the leap years in a given range of years.
+
+let btn = document.getElementById("btn");
+let input1 = document.getElementById("input1");
+let input2 = document.getElementById("input2");
+let para = document.getElementById("para");
+btn.addEventListener("click", checkLeapYear);
+function checkLeapYear() {
+  let a = Number(input1.value);
+  let b = Number(input2.value);
+  console.log(a, b);
+  var list = [];
+  for (var i = a; i <= b; i++) {
+    list.push(i);
+  }
+  console.log(list);
+  list.map((data) => {
+    console.log(data);
+    if (data % 4 == 0) {
+      console.log(`${data} is leap year`);
+      para.innerText += `${data} is leap year\n`;
+    } else {
+      console.log(`${data} is not leap year`);
+      para.innerText += `${data} is not leap year\n`;
+    }
+  });
+}
+
+*/
