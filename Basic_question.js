@@ -1,4 +1,4 @@
-console.log(true); // true
+console.log(true);//true
 console.log(typeof true); // boolean
 console.log(typeof true === "boolean"); // true
 
