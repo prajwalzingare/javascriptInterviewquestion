@@ -171,3 +171,14 @@ console.log(a[0]===b[0]); //true
 //Explaination : Here we are comparing elements inside an array, not a memory location. We specify the index so that's why element get compared.
 
 */
+/* 
+
+let z= [1,2,3]
+let a ={name: "prajwal"}
+console.log(...z); // 1 2 3 
+//Explaination : ...z means destructing happened i.e, all the elements are come out from an array/object.
+
+console.log(typeof NaN); //number
+//Explaination : If we divide "prajwal"/2 then it will give NaN. 
+
+*/
