@@ -106,3 +106,26 @@ function checkLeapYear() {
 }
 
 */
+
+/* 
+ // Write a JavaScript program which accept a string as input and swap the case of each character. For example if you input 'The Quick Brown Fox' the output should be 'tHE qUICK bROWN fOX'. 
+
+let btn = document.getElementById("btn");
+let input1 = document.getElementById("input1");
+btn.addEventListener("click", revereseString);
+function revereseString() {
+  let a = input1.value;
+  console.log(a);
+  let sami = a
+    .split("")
+    .map((data) => {
+      console.log(data);
+      return data === data.toUpperCase()
+        ? data.toLowerCase()
+        : data.toUpperCase();
+    })
+    .join("");
+
+  console.log(sami);
+}
+*/
