@@ -1,4 +1,4 @@
-console.log(true);//true
+console.log(true); //true
 console.log(typeof true); // boolean
 console.log(typeof true === "boolean"); // true
 
@@ -181,4 +181,24 @@ console.log(...z); // 1 2 3
 console.log(typeof NaN); //number
 //Explaination : If we divide "prajwal"/2 then it will give NaN. 
 
+*/
+
+/* 
+
+let data = 10 - -10;
+console.log(data); //20
+//Explaination : Minus minus will become plus so 10+10=20
+
+const set = new Set([1,1,2,2,3,4,5])
+console.log(set) //{1,2,3,4,5}
+//Explaination : It will remove duplicate values.//https://www.w3schools.com/js/js_object_sets.asp
+
+let data ={name: "prajwal"}
+console.log(delete data.name); //true
+console.log(data)//{}
+//Explaination : delete will return either true or false.
+
+let data ={name: "prajwal"}
+console.log(delete data); //false
+//Explaination : We can delete the object property only. We can't able to delete the object(i.e, data).
 */
