@@ -201,4 +201,9 @@ console.log(data)//{}
 let data ={name: "prajwal"}
 console.log(delete data); //false
 //Explaination : We can delete the object property only. We can't able to delete the object(i.e, data).
+
+const data = ["prajwal", "sami", "sourabh"];
+const [y] = data;
+console.log(y); //"prajwal"
+//Explaination : We are doing destructuring here. y is representing the first index only
 */
