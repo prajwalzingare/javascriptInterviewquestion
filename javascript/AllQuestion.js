@@ -179,3 +179,276 @@ console.log(
 // My name is prajwal and my surname is Zingare,My marital Status is No ,I live in country India and My age is 23
 
 */
+
+/* 
+
+10. Decalre a varibale and assign value to it and change all the string characters to capital letters using toUpperCase() method.
+
+// Ans
+let a = "prajwal";
+let uppercase = a.toUpperCase();
+console.log(uppercase);
+
+// output
+// PRAJWAL;
+
+*/
+
+/* 
+ 11. Check if the string contains a word Script using includes() method.
+
+let text = "Hello world, welcome to the universe.";
+let result = text.includes("world");
+console.log(result);
+// output
+// true;
+
+
+
+*/
+
+/* 
+// 12. Split the string into an array using split() method
+// Ans
+
+let a = "prajwal zingare is full stack developer";
+let split = a.split(" ");
+console.log(split);
+
+// output
+// [ 'prajwal', 'zingare', 'is', 'full', 'stack', 'developer' ]
+
+*/
+
+/* 
+// 13. 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon' split the string at the comma and change it to an array.
+
+// Ans
+
+let string = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
+let split = string.split(",");
+console.log(split);
+
+// output
+// [
+//     'Facebook',
+//     ' Google',
+//     ' Microsoft',
+//     ' Apple',
+//     ' IBM',
+//     ' Oracle',
+//     ' Amazon'
+//   ]
+
+
+*/
+
+/* 
+// 14. Use lastIndexOf to determine the position of the last occurrence of a script.
+
+// description og lastindex method
+
+// The lastIndexOf() method returns the index (position) of the last occurrence of a specified value in a string. The lastIndexOf() method searches the string from the end to the beginning. The lastIndexOf() method returns the index from the beginning (position 0).
+
+// The lastIndexOf() method returns the index (position) of the last occurrence of a specified value in a string.
+
+// The lastIndexOf() method searches the string from the end to the beginning.
+
+// The lastIndexOf() method returns the index from the beginning (position 0).
+
+// The lastIndexOf() method returns -1 if the value is not found.
+
+// The lastIndexOf() method is case sensitive.
+
+// Ans
+// var str = "Departed Train";
+// var index = str.lastIndexOf("ed Tr");
+// console.log(index);
+// console.log("Departed Train before another Train".lastIndexOf("Train"));
+
+// let text = "Hello planet earth, you are a great planet.";
+// let result = text.lastIndexOf("planet", 100);
+// console.log(result);
+
+// index of property
+// var s = ["prajwal", 1, 2, "zingare", "prajwal"];
+// console.log(s.indexOf("zingare"));
+// console.log(s.lastIndexOf("prajwal"));
+
+// let a = "prajwal is web developer,web devloper";
+// console.log(a.lastIndexOf("web"));
+// console.log(a.lastIndexOf("w"));
+//last index of means last occurence of specified value in stiring.
+let a = "Two writers collaborated on the script for the film.";
+console.log(a.lastIndexOf("script"));
+
+
+*/
+
+/* 
+// 15. Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'.
+
+// Ans
+
+let sent =
+  "You cannot end a sentence with because because because is a conjunction";
+
+//indexof is the property we can use to detrmine index.
+
+console.log(sent.indexOf("because"));
+
+
+*/
+
+/* 
+
+// 16. Use trim() to remove any trailing whitespace at the beginning and the end of a string.
+
+//trim method is used to remove the extra speces at start and end of sentence in string.
+// The trim() method removes whitespace from both sides of a string.
+// The trim() method does not change the original string.
+
+let text = "       Hello World!        ";
+let result = text.trim();
+console.log(result);
+
+*/
+/* 
+
+// 17. Boolean value is either true or false.
+// - Write three JavaScript statement which provide truthy value.
+// - Write three JavaScript statement which provide falsy value.
+
+// Ans
+//truthy value
+console.log(false == 0); //true
+console.log(8 > 5); //true
+console.log((a1 = true && true)); //true
+// falsy value s
+console.log(true == 0); //false
+const a = 3;
+const b = -2;
+
+console.log(a > 0 && b > 0);
+// expected output: false
+
+console.log(false && "Cat"); //false
+
+
+*/
+
+/* 
+18. Figure out the result of the following comparison expression first without using console.log(). After you decide the result confirm it using console.log()
+    - 4 > 3
+    - 4 >= 3
+    - 4 < 3
+    - 4 <= 3
+    - 4 == 4
+    - 4 === 4
+    - 4 != 4
+    - 4 !== 4
+    - 4 != '4'
+    - 4 == '4'
+    - 4 === '4'
+    - Find the length of python and jargon and make a falsy comparison statement.
+
+// Ans
+
+console.log(4 > 3); //true
+console.log(4 >= 3); //true
+console.log(4 < 3); //false
+console.log(4 <= 3); //false
+console.log(4 == 4); //true
+console.log(4 === 4); //true
+console.log(4 != 4); //false
+console.log(4 !== 4); //false
+console.log(4 != "4"); //flase
+console.log(4 == "4"); //true
+console.log(4 === "4"); //false
+
+let a = "python";
+let b = "jargon";
+console.log(a.length);
+console.log(b.length);
+if (a.length !== b.length) {
+  console.log(true);
+} else {
+  console.log(false);
+}
+
+
+*/
+/* 
+
+// 19. Use the Date object to do the following activities
+//     - What is the year today?
+//     - What is the month today as a number?
+//     - What is the date today?
+//     - What is the day today as a number?
+//     - What is the hours now?
+//     - What is the minutes now?
+//     - Find out the numbers of seconds elapsed from January 1, 1970 to now.
+
+// Ans
+
+let date = new Date();
+let elapsed = new Date(1970, 1, 1);
+console.log(date.getFullYear()); //2022
+console.log(date.getMonth());
+console.log(date.getDate());
+console.log(date.getDay());
+console.log(date.getHours());
+console.log(date.getMilliseconds());
+console.log(date - elapsed);
+
+
+*/
+
+/* 
+// 20. Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
+
+// Ans
+
+let base = prompt("Enter base of triangle");
+let height = prompt("Enter height of triangle");
+
+const areaValue = (base * height) / 2;
+
+console.log(areaValue);
+
+*/
+
+/* 
+// 21. Slope is m = (y2-y1)/(x2-x1). Find the slope between point (2, 2) and point(6,10)
+console.log("object");
+// Ans
+// function to find slope of straight line
+//ther is more descriptive way to perform this action but this one is short formm.
+function slope(x1, y1, x2, y2) {
+  return (y2 - y1) / (x2 - x1);
+}
+console.log("slope is " + slope(2, 2, 6, 10));
+
+*/
+
+/* 
+
+
+// 22. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
+
+// Ans
+
+let radius = prompt("Give radius of circle");
+// for area
+function area(radius) {
+  if (radius != 0) {
+    alert("Area of circle is - " + radius * radius * 3.14);
+    alert("circumference of circle is - " + radius * 2 * 3.14);
+  } else {
+    confirm("Enter Valid radius to see area");
+  }
+}
+area(radius);
+
+
+*/
