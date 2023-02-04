@@ -452,3 +452,128 @@ area(radius);
 
 
 */
+
+/* 
+// 23. Get user input using prompt(“Enter your age:”). If user is 18 or older , give feedback:'You are old enough to drive' but if not 18 give another feedback stating to wait for the number of years he needs to turn 18.
+
+let age = prompt("Enter Your Age");
+
+function drive(age) {
+  if (age >= 18) {
+    alert("You are older enough to drive");
+  } else {
+    alert(`You have to wait for ${18 - age} years to drive `);
+  }
+}
+
+drive(age);
+
+*/
+
+/* 
+// 24. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
+
+let number = prompt("Enter number to check it is odd or even");
+
+function numberCheck(number) {
+  if (number % 2 === 0) {
+    alert("Even number");
+  } else {
+    alert("odd number");
+  }
+}
+numberCheck(number);
+
+
+*/
+
+/* 
+// 25. Write a code which can give grades to students according to theirs scores:
+//     - 80-100, A
+//     - 70-89, B
+//     - 60-69, C
+//     - 50-59, D
+//     - 0-49, F
+
+// Ans
+let grade = prompt("Enter Your marks to know the grade");
+
+gradeCheck = () => {
+  if (grade >= 90 && grade <= 100) {
+    alert("congratulations, You have passed with garde A ");
+  } else if (grade >= 70 && grade < 90) {
+    alert("congratulations, You have passed with garde B ");
+  } else if (grade >= 60 && grade < 70) {
+    alert("congratulations, You have passed with garde C ");
+  } else if (grade >= 50 && grade < 60) {
+    alert("congratulations, You have passed with garde D");
+  } else if (grade > 0 && grade <= 49) {
+    alert("congratulations, You have passed with garde F");
+  } else if (grade > 100) {
+    alert("Enter the proper value");
+  }
+};
+
+gradeCheck();
+
+
+
+*/
+
+/* 
+26. problem steatment find the area of triangle whose 3 sides are given. with javascript 
+
+console.log("first");
+let input1 = document.getElementById("inpt1");
+let input2 = document.getElementById("inpt2");
+let input3 = document.getElementById("inpt3");
+let btn = document.getElementById("btn");
+btn.addEventListener("click", myFunction);
+
+function myFunction() {
+  let a = Number(input1.value);
+  let b = Number(input2.value);
+  let c = Number(input3.value);
+  console.log(c);
+  let s = a + b + c;
+  console.log(s);
+
+  let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+  console.log(area);
+}
+
+
+*/
+
+/* 27. Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen
+
+Sample Output :
+"0 is even"
+"1 is odd"
+"2 is even"
+
+
+let btn = document.getElementById("btn");
+let para = document.getElementById("para");
+btn.addEventListener("click", myFunction);
+function myFunction() {
+  console.log("function");
+  let a = 15;
+  for (let i = 0; i <= a; i++) {
+    // console.log(i);
+    if (i % 2 === 0) {
+      console.log(i + " is even number");
+      para.innerHTML += i + " is even " + "<br>";
+    } else if (i % 2 !== 0) {
+      console.log(i + " is odd numbers");
+      para.innerHTML += i + " is odd " + "<br>";
+    }
+  }
+}
+
+//got the output.
+resources that i take help 
+https://stackoverflow.com/questions/19801995/how-to-store-the-result-of-each-iteration-of-a-for-loop-into-an-array-javascrip
+
+https://www.w3schools.com/js/js_break.asp
+*/
