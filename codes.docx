@@ -1,0 +1,17 @@
+For JavaScript Theorytical questions: "https://github.com/sudheerj/javascript-interview-questions"
+Live practice in practice folder on local machine adding answer hear .
+Practicing the code question from Running Github
+====================================================================================================================
+Code 1: Remove Duplicate characters from String
+function removeDuplicateCharacters() {
+  var string='priya riya supriya'
+  let result= string.split('').filter((item, index, arr)=> {
+               return arr.indexOf(item) == index;
+               }).join('');
+  return result;
+}
+console.log(removeDuplicateCharacters());
+
+
+
+
