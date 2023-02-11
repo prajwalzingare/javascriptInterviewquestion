@@ -17,6 +17,8 @@ var arr = [55, 44, 55,67,67,67,67,8,8,8,8,8,65,1,2,3,3,34,5];
 var unique = [...new Set(arr)]
 console.log(unique) //output: [55, 44, 67, 8, 65, 1, 2, 3, 34, 5]
 console.log(unique.length) //output: 10
-
-
+====================================================================================================================
+Code 3: Remove Duplicate characters from array of element using filter
+var myArray = ['a', 1, 'a', 2, '1'];
+var unique = myArray.filter((value, index, arr) => arr.indexOf(value) === index);
 
